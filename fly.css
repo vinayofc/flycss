@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.4rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+button,
+a.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0079FF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+a.button:hover {
+    background-color: #3d94f7;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input,
+textarea:focus {
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0.5rem;
+    }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0079FF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #3d94f7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+ul,
+ol {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+blockquote {
+    margin: 0 0 1rem;
+    padding: 0 1rem;
+    border-left: 2px solid #ccc;
+}
+
+details {
+    margin-bottom: 1rem;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details summary:focus {
+    outline: none;
+}
+
+code {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+    border-radius: 6px;
+}
+
+a {
+    color: #0079FF;
+}
